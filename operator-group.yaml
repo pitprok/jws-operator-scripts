@@ -1,0 +1,8 @@
+apiVersion: operators.coreos.com/v1
+kind: OperatorGroup
+metadata:
+  name: jws-operator-group
+  namespace: jws-operator
+spec:
+  targetNamespaces:
+  - jws-operator
